@@ -125,5 +125,6 @@ body{
 
     .form{
         width: 90%;
+        max-width: 90%;
     }
 }
