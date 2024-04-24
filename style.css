@@ -122,4 +122,8 @@ body{
     .countryselect select {
         width: 700%;
     }
+
+    .form{
+        width: 90%;
+    }
 }
