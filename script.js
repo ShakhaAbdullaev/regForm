@@ -12,3 +12,6 @@ async function populateCountries() {
 }
 
 window.onload = populateCountries
+
+//on the HTML file there is select option with countries
+//i used API to get the countries and populate the select option with the countries
