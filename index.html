@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Responsive Registration Form</title>
+</head>
+<body>
+    
+    <main class="main">
+
+        <div class="container">
+
+            <div class="form">
+
+                <h2 class="header">Registration Form</h2>
+
+                <div class="fullname">
+
+                    <p class="inputText">Name</p>
+
+                   
+                    <input type="text" required placeholder="First" class="input">
+                    <input type="text" required placeholder="Last" class="input">
+                   
+
+                </div>
+
+                <form class="mailbox">
+
+                    <p class="mailtext">Email</p>
+
+                    <input type="email" placeholder="Enter Email" required class="input">
+
+                    <input type="password" placeholder="Password" required class="input">
+
+                    <input type="password" placeholder="Confirm Password" required class="input">
+
+                </form>
+
+                <div class="gender">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+
+                <div class="countryselect">
+
+                    <form id="countryForm">
+                        
+                        <select id="countrySelect" name="country" class="input">
+                            <option value="" >Select a country</option>
+                        </select>
+
+                    </form>
+
+                </div>
+
+                <div class="terms">
+
+                        <input type="checkbox" id="terms" name="terms" value="terms">
+                        <label for="terms">I accept the terms of service</label>
+
+                </div>
+
+                <button class="btn">Register</button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
